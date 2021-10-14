@@ -1,0 +1,52 @@
+.heading-primary {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 10px;
+  margin-bottom: 5rem;
+}
+
+.heading-secondary {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 130px;
+  border: none;
+  outline: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  padding: 0 15px;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  width: 140px;
+  box-shadow: -10px 10px 10px grey;
+  transform: translateY(-10px);
+}
+
+.btn:active {
+  transform: scale(0.8);
+}
+
+/* footer */
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 20px;
+}
