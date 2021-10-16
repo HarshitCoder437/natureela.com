@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .heading-primary {
   font-size: 50px;
   text-transform: uppercase;
@@ -5,6 +10,7 @@
   font-family: "Oxygen", sans-serif;
   letter-spacing: 10px;
   margin-bottom: 5rem;
+  margin-top: 2rem;
 }
 
 .heading-secondary {
