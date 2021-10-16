@@ -15,6 +15,12 @@
       .container {
         margin-bottom: 2rem;
       }
+      @media screen and (max-width: 710px) {
+        .heading-primary {
+          font-size: 27px;
+          margin-bottom: 2rem;
+        }
+      }
     </style>
   </head>
   <body>
@@ -25,6 +31,7 @@
         id="carouselExampleControls"
         class="carousel slide"
         data-bs-ride="carousel"
+        data-interval="3000"
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
